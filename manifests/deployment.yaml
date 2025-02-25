@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: my-html-container
-          image: your-dockerhub-username/my-html-app:latest  # Use your pushed image
+          image: vinayakjaybhaye/my-html-app:latest
           ports:
             - containerPort: 80
